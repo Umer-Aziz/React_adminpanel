@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    color: rgb(243, 241, 241);
+    color: rgb(228, 224, 224);
     
 }
 .featuredItem{
@@ -11,9 +11,13 @@
     padding: 30px;
     cursor: pointer;
     border-radius: 10px;
-    -webkit-box-shadow: -2px 2px 15px -10px rgba(0, 0, 0, 2);
-    box-shadow: -2px 2px 15px -10px rgba(0, 0, 0, 2);
-    background-color: rgba(49, 48, 48, 0.459);
+    -webkit-box-shadow: var(--webkit-shadow);
+    box-shadow: var(--box-shadow);
+    background-color: var(--backCard-color);
+}
+.featuredItem:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in;
 }
 .featuredTitle{
     font-size:20px;

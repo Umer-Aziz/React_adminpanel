@@ -1,6 +1,14 @@
+:root{
+   --webkit-shadow: -2px 2px 15px -10px rgba(0, 0, 0, 2);
+    --box-shadow: -2px 2px 15px -10px rgba(0, 0, 0, 2);
+   --backCard-color:  rgba(49, 48, 48, 0.459);
+   --text-color:rgb(228, 224, 224);
+   --back-color:rgb(36, 35, 35);
+}
+
 body{
-     background-color: rgb(36, 35, 35);
-        color: #fff;
+     background-color: var(--back-color);
+    color: var(--text-color);
 }
 .container{
     display: flex;

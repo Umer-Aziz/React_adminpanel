@@ -1,0 +1,52 @@
+.widgetLg{
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: var(--webkit-shadow);
+    box-shadow: var(--box-shadow);
+    background-color: var(--backCard-color);
+}
+.widgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetLgTable{
+    width: 100%;
+   border-spacing: 20px;
+}
+.widgetLgTh{
+    text-align: left;
+}
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetLgDate,.widgetLgAmount{
+    font-weight: 300;
+}
+.widgetLgImg{
+    margin-right: 12px;
+}
+
+.widgetLgButton{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.widgetLgButton.Approved{
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+.widgetLgButton.Declined{
+    background-color: #fff0f1;
+    color: #d95087;
+
+}
+.widgetLgButton.Pending{
+    background-color: #ebf1fe;
+    color: #2a7ade;
+
+}
