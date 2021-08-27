@@ -1,0 +1,81 @@
+.newUser {
+    flex: 4;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.newUserTop{
+    padding:20px 0px 20px 40px;
+    border-radius: 10px;
+    width: 860px;
+    -webkit-box-shadow: var(--webkit-shadow);
+    box-shadow: var(--box-shadow);
+    background-color: var(--backCard-color);
+
+}
+  
+  .newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-light);
+  }
+  
+  .newUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: var(--back-color);
+  }
+  
+  .newUserGender > input {
+    margin-top: 15px;
+  }
+  
+  .newUserGender>label{
+      margin: 10px;
+      font-size: 18px;
+      color: var(--text-light);
+  }
+  
+  .newUserSelect{
+      height: 40px;
+      border-radius: 5px;
+      outline: none;
+      font-size: 16px;
+      color: gray;
+  }
+  
+  .newUserButton{
+      width: 200px;
+      border: none;
+      background-color:orange ;
+      color: var(--back-color);
+      padding: 7px 10px;
+      font-weight: 600;
+      border-radius: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+  }
+  .createBtn{
+      width: 100%;
+      
+  }
