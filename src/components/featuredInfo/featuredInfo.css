@@ -8,7 +8,7 @@
 .featuredItem{
     flex: 1;
     margin: 0 20px;
-    padding: 30px;
+    padding: 20px;
     cursor: pointer;
     border-radius: 10px;
     -webkit-box-shadow: var(--webkit-shadow);
@@ -18,6 +18,7 @@
 .featuredItem:hover{
     transform: scale(1.05);
     transition: all 0.2s ease-in;
+    
 }
 .featuredTitle{
     font-size:20px;
