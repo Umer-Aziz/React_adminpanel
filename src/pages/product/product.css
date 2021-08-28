@@ -1,0 +1,150 @@
+.product {
+    flex: 4;
+    padding: 20px;
+ color: var(--text-color);
+  }
+  
+  .productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .productAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: orange;
+    color: var(--back-color);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .productTop {
+    display: flex;
+  }
+  
+  .productTopLeft,
+  .productTopRight {
+    flex: 1;
+  }
+  
+  .productTopRight {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: var(--webkit-shadow);
+    box-shadow: var(--box-shadow);
+    background-color: var(--backCard-color);
+  
+  }
+  
+  .productInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .productName {
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  .productInfoBottom {
+    margin-top: 10px;
+  }
+  
+  .productInfoItem {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .productInfoValue {
+    font-weight: 300;
+  }
+  
+  .productBottom {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: var(--webkit-shadow);
+    box-shadow: var(--box-shadow);
+    background-color: var(--backCard-color);
+  }
+  
+  .productForm {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .productFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productFormLeft > label {
+    margin-bottom: 10px;
+    color: silver;
+  }
+  
+  .productFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border: 1px solid orange;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .productFormLeft >select{
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: var(--text-light);
+  }
+  
+  .productUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .productUpload{
+    display: flex;
+    align-items: center;
+    color: orange;
+  }
+  
+  .productButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    color:var(--back-color);
+    font-weight: 600;
+    cursor: pointer;
+  }
